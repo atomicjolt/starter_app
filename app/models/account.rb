@@ -1,10 +1,8 @@
 class Account < ActiveRecord::Base
-  include Lti::Methods
 
   validates :domain, uniqueness: true
   validates :code, uniqueness: true
   validates :code, presence: true
-  validates :lti_secret, uniqueness: true
 
   before_save :clean_domain
 

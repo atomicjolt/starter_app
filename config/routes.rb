@@ -14,11 +14,10 @@ Rails.application.routes.draw do
     registrations: "registrations",
     omniauth_callbacks: "omniauth_callbacks"
   }
-  
+
   resources :users
-  resources :canvas_authentications
   resources :admin, only: [:index]
-  
+
   mount MailPreview => 'mail_view' if Rails.env.development?
 
 end

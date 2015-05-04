@@ -1,6 +1,6 @@
 # If bundler starts to act up run these commands to start over and clean up:
 # rm -rf ~/.bundle/ ~/.gem/; rm -rf $GEM_HOME/bundler/ $GEM_HOME/cache/bundler/; rm -rf .bundle/; rm -rf vendor/cache/; rm -rf Gemfile.lock
-# rvm gemset empty canvasstarterapp
+# rvm gemset empty amasynsoftware
 # bundle install
 
 source 'https://rubygems.org'
@@ -24,9 +24,7 @@ gem "bower-rails"
 # authentication, authorization, integrations
 gem 'devise'
 gem 'omniauth', '~> 1.1.3'
-gem 'omniauth-canvas', '~> 0.0.4' #, :path => '~/projects/omniauth-canvas'
 gem 'oauth', '~> 0.4.7'
-gem 'ims-lti', '~> 1.1.8' # IMS LTI tool consumers and providers
 gem 'cancancan'
 gem 'attr_encrypted'
 

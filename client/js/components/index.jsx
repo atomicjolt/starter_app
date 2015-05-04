@@ -10,13 +10,13 @@ export default React.createClass({
 
   render(){
 
-    var title = "Canvas Starter App asdfasdf";
+    var title = "Amasyn Software";
 
     var githubButton = (
       <IconButton
         className="github-icon-button"
         iconClassName="muidocs-icon-custom-github"
-        href="https://github.com/atomicjolt/canvas_starter_app"
+        href="https://github.com/jdhoopes/amasynsoftware"
         linkButton={true} />
     );
 

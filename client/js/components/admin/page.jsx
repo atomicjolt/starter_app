@@ -16,7 +16,7 @@ export default React.createClass({
       <IconButton
         className="github-icon-button"
         iconClassName="muidocs-icon-custom-github"
-        href="https://github.com/atomicjolt/canvas_starter_app"
+        href="https://github.com/jdhoopes/amasynsoftware"
         linkButton={true} />
     );
 
@@ -42,7 +42,7 @@ export default React.createClass({
 
         <div className="footer full-width-section mui-dark-theme">
           <p>
-            Built by <a href="http://www.atomicjolt.com">Atomic Jolt</a>.
+            Built by <a href="">Amasyn</a>.
           </p>
           {githubButton}
         </div>

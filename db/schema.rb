@@ -19,11 +19,8 @@ ActiveRecord::Schema.define(version: 20150318170605) do
   create_table "accounts", force: true do |t|
     t.string   "name"
     t.string   "domain"
-    t.string   "lti_key"
-    t.string   "lti_secret"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "canvas_uri", limit: 2048
     t.string   "code"
   end
 
@@ -60,7 +57,6 @@ ActiveRecord::Schema.define(version: 20150318170605) do
     t.string   "provider"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "custom_canvas_user_id"
   end
 
   add_index "external_identifiers", ["identifier", "provider"], name: "index_external_identifiers_on_identifier_and_provider", using: :btree
@@ -136,8 +132,6 @@ ActiveRecord::Schema.define(version: 20150318170605) do
     t.string   "avatar"
     t.string   "time_zone",              default: "UTC"
     t.string   "password_salt"
-    t.string   "lti_key"
-    t.string   "lti_secret"
     t.string   "provider_avatar"
     t.string   "profile_privacy",        default: "private"
     t.string   "profile_privacy_token"
