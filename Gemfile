@@ -26,7 +26,6 @@ gem 'devise'
 gem 'omniauth', '~> 1.1.3'
 gem 'oauth', '~> 0.4.7'
 gem 'cancancan'
-gem 'attr_encrypted'
 
 # Email
 gem 'sendgrid'
