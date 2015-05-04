@@ -6,7 +6,7 @@ class Role < ActiveRecord::Base
   validates :name, :presence => true
   validates :name, :uniqueness => true
 
-  scope :by_alpha, order('roles.name ASC')
+  scope :by_alpha, -> {order('roles.name ASC')}
 
   # roles can be defined as symbols.  We want to store them as strings in the database
   def name= val
