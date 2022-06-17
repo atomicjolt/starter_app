@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/alexpeattie/heroku_secrets.git
+  remote: https://github.com/alexpeattie/heroku_secrets.git
   revision: 717af8e0acf399bc88d2c8c1a7e230023942af0f
   specs:
     heroku_secrets (0.0.2)
@@ -74,6 +74,7 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.0)
     columnize (0.9.0)
+    concurrent-ruby (1.1.10)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     daemons (1.2.2)
@@ -132,7 +133,8 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     hub (1.12.4)
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     jquery-rails (4.0.3)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
