@@ -23,7 +23,7 @@ gem "bower-rails"
 
 # authentication, authorization, integrations
 gem 'devise'
-gem 'omniauth', '~> 1.1.3'
+gem 'omniauth', '~> 2.0.0'
 gem 'oauth', '~> 0.4.7'
 gem 'cancancan'
 
